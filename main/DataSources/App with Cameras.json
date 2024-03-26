@@ -1,0 +1,105 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr59c_appwithcameras",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr59c_appwithcamera",
+    "MaxGetRowsCount": 500,
+    "Name": "App with Cameras",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr59c_appwithcamera_AsyncOperations": "System Jobs",
+      "cr59c_appwithcamera_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr59c_appwithcamera_DuplicateBaseRecord": "Duplicate Records (cr59c_appwithcamera_DuplicateBaseRecord)",
+      "cr59c_appwithcamera_DuplicateMatchingRecord": "Duplicate Records (cr59c_appwithcamera_DuplicateMatchingRecord)",
+      "cr59c_appwithcamera_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr59c_appwithcamera_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr59c_appwithcamera_ProcessSession": "Process Sessions",
+      "cr59c_appwithcamera_SyncErrors": "Sync Errors",
+      "cr59c_appwithcameraid": "App with Camera",
+      "cr59c_customer": "Customer",
+      "cr59c_damage": "Damage",
+      "cr59c_damagedescription": "Damage Description",
+      "cr59c_damageid": "cr59c_DamageId",
+      "cr59c_date": "Date",
+      "cr59c_delivery_bill": "Delivery_Bill",
+      "cr59c_delivery_billid": "cr59c_Delivery_BillId",
+      "cr59c_documentid": "Document ID",
+      "cr59c_photo": "Photo",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "App with Cameras",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "App with Cameras (Views)",
+    "Name": "_cr59c_appwithcamera_views",
+    "RelatedEntityName": "App with Cameras",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "118d9833-d86d-49dc-9076-19a5c42da301": "Active App with Cameras",
+      "5c4fbb0d-a855-4bd2-98f0-f2288edc018b": "App with Camera Associated View",
+      "9d1c9123-ee4a-4218-bf1f-0176afeae38d": "App with Camera Advanced Find View",
+      "f97fea68-888c-4783-ac96-26b3e006efc9": "Inactive App with Cameras",
+      "fa74a5fc-54ec-401b-aa2a-5764bbc8d032": "App with Camera Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (App with Cameras)",
+    "Name": "cr59c_appwithcamera_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "App with Cameras"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "App with Cameras",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (App with Cameras)",
+    "Name": "cr59c_appwithcamera_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "App with Cameras"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "App with Cameras",
+    "Type": "OptionSetInfo"
+  }
+]
